@@ -11,7 +11,7 @@ Com apenas alguns cliques, ela identifica se um e-mail é **PRODUTIVO** (ou seja
  ## acessar o Deploy = https://autou-desenvolvimento-master.onrender.com/
 
  ## Atenção!!!!
- <!-- para rodar o Projeto é necessario criar uma novo arquivo com o nome .env nele deve contar a chave TOKEN gerada pela huggingface, o motivo pelo qual não está aqui diretamente é que como é uma chave unica e precisa de segurança se o github estiver com o projeto como publico a huggingface desativa a chave na chave a baixo tem dois espaço retirar e inserir no arquivo .env que o projeto vai funcionar, ou pode gerar um novo token no site .
+  para rodar o Projeto é necessario criar uma novo arquivo com o nome .env nele deve contar a chave TOKEN gerada pela huggingface, o motivo pelo qual não está aqui diretamente é que como é uma chave unica e precisa de segurança se o github estiver com o projeto como publico a huggingface desativa a chave na chave a baixo tem dois espaço retirar e inserir no arquivo .env que o projeto vai funcionar, ou pode gerar um novo token no site .
 >>>chave usada atual = HUGGINGFACE_API_KEY= hf_FmAPKGYs XYKXzxtlhfSjNldhsOYmaovgGh
 
  🔐 Como corrigir (2 passos simples):
@@ -41,7 +41,7 @@ Clique no lápis para editar, e cole o novo token
 
 Salve
 
-  -->
+ 
 
 ## ✨ O que a aplicação faz?
 
