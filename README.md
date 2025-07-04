@@ -30,8 +30,9 @@ Ideal para ambientes corporativos que lidam com alto volume de e-mails e precisa
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Natanpython/AutoU-_-Desenvolvimento-master.git
-cd AutoU-_-Desenvolvimento-master
+git clone https://github.com/Natanpython/AutoU_Apresentar?tab=readme-ov-file#aten%C3%A7%C3%A3o
+
+cd AutoU_Apresentar
 ```
 
 2. Crie e ative um ambiente virtual:
@@ -78,7 +79,7 @@ HUGGINGFACE_API_KEY=hf_seu_token_aqui
 
 A aplicação está hospedada e disponível no seguinte link:
 
-👉 [https://autou-desenvolvimento-master.onrender.com/](https://autou-desenvolvimento-master.onrender.com/)
+👉  https://autou-desenvolvimento-master.onrender.com/ 
 
 ---
 

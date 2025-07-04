@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Prático AutoU - Desenvolvimento</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+        <h1>Enviar E-mails</h1>
+    </header>
+
+    <main>
+        <form method="POST" enctype="multipart/form-data">
+            <label>Nome:</label>
+            <input type="text" name="nome" required placeholder="Digite seu nome:">
+
+            <label>Email:</label>
+            <input type="email" name="email" required placeholder="Digite seu E-mails:">
+
+            <label>Mensagem (ou anexar arquivo):</label>
+            <textarea name="mensagem" placeholder="Digite aqui..." rows="5"></textarea>
+
+            <label>Upload (.txt ou .pdf):</label>
+            <input type="file" name="arquivo" accept=".txt,.pdf">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Postagens Classificadas</h2>
+
+        {% for post in postagens %}
+        <div class="postagem">
+            <a href="/excluir/{{ post.id }}" class="delete-btn" onclick="return confirm('Tem certeza que deseja apagar?')">×</a>
+            <p><strong>Nome:</strong> {{ post.nome }}</p>
+            <p><strong>Email:</strong> {{ post.email }}</p>
+            <p><strong>Categoria:</strong> {{ post.categoria }}</p>
+            <p><strong>Mensagem:</strong> <pre>{{ post.mensagem }}</pre></p>
+            <p><strong>Resposta:</strong> {{ post.resposta }}</p>
+        </div>
+        {% else %}
+            <p>Nenhuma postagem ainda.</p>
+        {% endfor %}
+    </main>
+</body>
+</html>
