@@ -30,8 +30,7 @@ Ideal para ambientes corporativos que lidam com alto volume de e-mails e precisa
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Natanpython/AutoU_Apresentar?tab=readme-ov-file#aten%C3%A7%C3%A3o
-
+git clone https://github.com/Natanpython/AutoU_Apresentar
 cd AutoU_Apresentar
 ```
 
