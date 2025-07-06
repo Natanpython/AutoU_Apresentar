@@ -46,6 +46,8 @@ venv\Scripts\activate     # Windows
 
 ```bash
 pip install -r requirements.txt
+pip install huggingface_hub
+pip freeze > requirements.txt
 ```
 
 4. Crie um arquivo `.env` na raiz do projeto com a variável de API:
